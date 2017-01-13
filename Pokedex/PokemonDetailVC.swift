@@ -51,6 +51,12 @@ class PokemonDetailVC: UIViewController {
         heightLbl.text = pokemon.height
         weightLbl.text = pokemon.weight
         typeLbl.text = pokemon.type
+        if pokemon.nextEvolutionText != "" {
+            evoLbl.text = "Next Evolution: \(pokemon.nextEvolutionText) LVL X"
+        } else {
+            evoLbl.text = "\(pokemon.name.capitalized) does not evolve"
+            nextEvoImg.isHidden = true
+        }
         
     }
 
