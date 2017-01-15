@@ -9,10 +9,13 @@
 import UIKit
 import AVFoundation
 
+var shiny = false
+
 class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout, UISearchBarDelegate {
 
     @IBOutlet weak var collection: UICollectionView!
     @IBOutlet weak var searchBar: UISearchBar!
+    @IBOutlet weak var shinyBtn: UIButton!
     
     var pokemon = [Pokemon]()
     var filteredPokemon = [Pokemon]()
@@ -153,6 +156,24 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         
         return CGSize(width: 105, height: 105)
     }
+    
+    
+    @IBAction func shinyBtnPressed(_ sender: UIButton) {
+        
+        if shiny == false {
+            
+            shiny = true
+            sender.alpha = 1.0
+            collection.reloadData()
+            
+        } else {
+            
+            shiny = false
+            sender.alpha = 0.2
+            collection.reloadData()
+        }
+    }
+    
     
     @IBAction func musicBtnPressed(_ sender: UIButton) {
         

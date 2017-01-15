@@ -24,6 +24,7 @@ class PokemonDetailVC: UIViewController {
     @IBOutlet weak var currentEvoImg: UIImageView!
     @IBOutlet weak var nextEvoImg: UIImageView!
     @IBOutlet weak var evoLbl: UILabel!
+   
     
     
     override func viewDidLoad() {
@@ -31,8 +32,16 @@ class PokemonDetailVC: UIViewController {
 
         let img = UIImage(named: "\(pokemon.pokedexId)")
         
-        mainImg.image = img
-        currentEvoImg.image = img
+        if shiny == false {
+           
+            mainImg.image = img
+            currentEvoImg.image = img
+        } else {
+            
+            mainImg.image = UIImage(named: "\(pokemon.pokedexId)s")
+            currentEvoImg.image = UIImage(named: "\(pokemon.pokedexId)s")
+        }
+        
         
         pokedexLbl.text = "\(pokemon.pokedexId)"
         nameLbl.text = pokemon.name.capitalized
@@ -51,11 +60,24 @@ class PokemonDetailVC: UIViewController {
         heightLbl.text = pokemon.height
         weightLbl.text = pokemon.weight
         typeLbl.text = pokemon.type
-        if pokemon.nextEvolutionText != "" {
-            evoLbl.text = "Next Evolution: \(pokemon.nextEvolutionText) LVL X"
-        } else {
-            evoLbl.text = "\(pokemon.name.capitalized) does not evolve"
+        descriptionLbl.text = pokemon.description
+        if pokemon.nextEvolutionId == "" {
+           
+            evoLbl.text = "\(pokemon.name.capitalized) has no evolutions"
             nextEvoImg.isHidden = true
+        } else {
+            
+            evoLbl.text = "Next Evolution: \(pokemon.nextEvolutionName.capitalized) - LVL \(pokemon.nextEvolutionLevel)"
+            
+            if shiny == false {
+            
+                nextEvoImg.image = UIImage(named: pokemon.nextEvolutionId)
+            } else {
+                
+                
+                nextEvoImg.image = UIImage(named: pokemon.nextEvolutionId + "s")
+            }
+            nextEvoImg.isHidden = false
         }
         
     }
