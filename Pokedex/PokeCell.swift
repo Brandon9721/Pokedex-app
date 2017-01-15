@@ -27,8 +27,14 @@ class PokeCell: UICollectionViewCell {
         self.pokemon = pokemon
         
         nameLabel.text = self.pokemon.name.capitalized
-        thumbImg.image = UIImage(named: "\(self.pokemon.pokedexId)")
+        if shiny == false {
+            
+            thumbImg.image = UIImage(named: "\(self.pokemon.pokedexId)")
+        } else {
+            
+            thumbImg.image = UIImage(named: "\(self.pokemon.pokedexId)s")
+        }
+        
     }
-    
-    
-}
+        
+} 
