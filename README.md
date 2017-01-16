@@ -13,11 +13,14 @@ Took out placeholder images and data. App now downloads needed info to replace t
 
 
 
+  
 
-![Alt Text](https://github.com/Brandon9721/Pokedex-app/blob/master/AppJustOpened.png)  
+![Home screen](https://github.com/Brandon9721/Pokedex-app/blob/master/AppJustOpened.png)    
 
-![Alt Text](https://github.com/Brandon9721/Pokedex-app/blob/master/ViewInformation.png)  
+![Details screen](https://github.com/Brandon9721/Pokedex-app/blob/master/ViewInformation.png)  
 
-![Alt Text](https://github.com/Brandon9721/Pokedex-app/blob/master/ScrollDownListAndMusicPlayerShutoff.png)  
+![Scrolling down through list](https://github.com/Brandon9721/Pokedex-app/blob/master/ScrollDownListAndMusicPlayerShutoff.png) 
 
-![Alt Text](SearchFunction.png)
+![Search function](SearchFunction.png)  
+
+
