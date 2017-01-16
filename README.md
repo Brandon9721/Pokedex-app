@@ -14,23 +14,38 @@ Took out placeholder images and data. App now downloads needed info to replace t
 
 
   
+# Home screen:  
 
-![Home screen](https://github.com/Brandon9721/Pokedex-app/blob/master/AppJustOpened.png)    
+![Home screen](https://github.com/Brandon9721/Pokedex-app/blob/master/AppJustOpened.png)  
+
+# Details screen:  
 
 ![Details screen](https://github.com/Brandon9721/Pokedex-app/blob/master/ViewInformation.png)  
 
-![Scrolling down through list](https://github.com/Brandon9721/Pokedex-app/blob/master/ScrollDownListAndMusicPlayerShutoff.png) 
+# Scroll down list:  
+
+![Scrolling down through list](https://github.com/Brandon9721/Pokedex-app/blob/master/ScrollDownListAndMusicPlayerShutoff.png)  
+
+# Search function:  
 
 ![Search function](SearchFunction.png)  
 
   
-# New shiny button feature screenshots:
+# New shiny button feature screenshots:  
+
+# Shiny sprites home screen:  
 
 ![Alt Text](https://github.com/Brandon9721/Pokedex-app/blob/master/ShinyHome.png)  
 
+# Searching with shiny on:  
+
 ![Alt Text](https://github.com/Brandon9721/Pokedex-app/blob/master/ShinySearch.png)  
 
+# Details screen with shiny sprite and no evolutions:  
+
 ![Alt Text](https://github.com/Brandon9721/Pokedex-app/blob/master/ShinyNoEvo.png)  
+
+# Details with shiny on and more evolutions:  
 
 ![Alt text](https://github.com/Brandon9721/Pokedex-app/blob/master/ShinyWithEvo.png)
 
