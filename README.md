@@ -19,6 +19,7 @@ Took out placeholder images and data. App now downloads needed info to replace t
 ![Home screen](https://github.com/Brandon9721/Pokedex-app/blob/master/AppJustOpened.png)  
 
 # Details screen:  
+(Details downloaded from pokeapi.co)
 
 ![Details screen](https://github.com/Brandon9721/Pokedex-app/blob/master/ViewInformation.png)  
 
@@ -41,7 +42,8 @@ Took out placeholder images and data. App now downloads needed info to replace t
 
 ![Alt Text](https://github.com/Brandon9721/Pokedex-app/blob/master/ShinySearch.png)  
 
-# Details screen with shiny sprite and no evolutions:  
+# Details screen with shiny sprite and no evolutions:   
+(Details obtained from pokeapi.co
 
 ![Alt Text](https://github.com/Brandon9721/Pokedex-app/blob/master/ShinyNoEvo.png)  
 
