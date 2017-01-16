@@ -4,10 +4,12 @@ API used in app found here: https://pokeapi.co/
 
 # Work in progress:   
 So far music plays in background which can be muted at any time and resumed.  
-You can scroll down through 700+ Pokemon (Doesn't have the newest ones up to the 800th pokemon as of this writing.)  
-Click on one of the collection views and it will display information for the chosen Pokemon.  
- 
-Still need to add functionality of downloading JSON data of each pokemons move list and also display proper evolution tree. Currently when a pokemon is selected the section that shows the next evolution defaults to Venusaur as shown in an image below. When finished it will display proper image for next evolution 
+You can scroll down through 700+ Pokemon  
+Click on one of the collection views and it will display information for the chosen Pokemon.
+Added shiny button so that when pressed all sprites have their colours changed to their shiny forms.  
+Shiny button affects main pages collection view as well as details screen  
+Took out placeholder images and data. App now downloads needed info to replace the old placeholder stuff.
+
 
 
 
