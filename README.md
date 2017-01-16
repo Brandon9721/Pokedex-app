@@ -23,4 +23,14 @@ Took out placeholder images and data. App now downloads needed info to replace t
 
 ![Search function](SearchFunction.png)  
 
+  
+# New shiny button feature screenshots:
+
+![Alt Text](https://github.com/Brandon9721/Pokedex-app/blob/master/ShinyHome.png)  
+
+![Alt Text](https://github.com/Brandon9721/Pokedex-app/blob/master/ShinySearch.png)  
+
+![Alt Text](https://github.com/Brandon9721/Pokedex-app/blob/master/ShinyNoEvo.png)  
+
+![Alt text](https://github.com/Brandon9721/Pokedex-app/blob/master/ShinyWithEvo.png)
 
